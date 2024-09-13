@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+article{
+  .better{
+    transform: rotateX(0deg);
+    animation: rotate 1s   infinite;
+    
+  }
+}
+
+@keyframes rotate {
+  /* 10%{
+    transform: rotateX(20deg);
+  }
+  20%{
+    transform: rotateX(40deg);
+  }
+  30%{
+    transform: rotateX(60deg);
+  } */
+   to{
+    transform: rotateX(360deg);
+   }
+}
